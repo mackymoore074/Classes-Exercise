@@ -1,16 +1,10 @@
 ﻿using System.Security.Cryptography.X509Certificates;
+using System;
 
 namespace Classes
 {
     public class Program
     {
-        public class Car
-        {
-            public string Make { get; set; }
-            public string Model { get; set; }
-            public int Year { get; set; }
-            public string Color { get; set; }
-        }
         static void Main(string[] args)
         {
             Car myCar = new Car();
